@@ -58,9 +58,9 @@ class GuessNumberGame:
                     print("Correct!")
                     break
                 elif guess < number:
-                    print("Too low.")
+                    print("Too low!.")
                 else:
-                    print("Too high.")
+                    print("Too high!.")
             except ValueError:
                 print("Invalid input. Please enter a valid number.")
         score = max(0, 10 - (guesses - 1))
